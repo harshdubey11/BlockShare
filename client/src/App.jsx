@@ -96,7 +96,9 @@ function App() {
               <DrawerHeader className="text" borderBottomWidth="1px">
                 About BlockShare
               </DrawerHeader>
-              <DrawerBody></DrawerBody>
+              <DrawerBody>
+              Our project aims to develop a secure and decentralized file sharing system utilizing cutting-edge technologies. By leveraging the power of IPFS for decentralized file storage, ReactJS for the user interface, and Ganache for local blockchain development, we aim to create a seamless and transparent platform that enables users to securely upload, share, and manage files while ensuring data integrity and privacy through blockchain-based authentication and access control mechanisms.
+              </DrawerBody>
             </DrawerContent>
           </Drawer>
           </div>

@@ -30,7 +30,7 @@ function Home(props) {
   const handleAddIPFStoBC = async (ipfsHash) => {
     console.log("hash", ipfsHash);
     props.contract.methods
-      .createFileHash("file by client", ipfsHash)
+      .createFileHash(inputFields.description, ipfsHash)
       .send({ from: props.addressAccount })
       .on("receipt", function (result) {
         console.log(result);
